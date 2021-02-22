@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right bottom, midnightblue, springgreen)
+    no-repeat;
+  background-size: 100%;
+  font-family: "Spartan";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 84.2vh;
+}
+
+.component {
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 50vh;
+  width: 50vw;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+}
+.order-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-column {
+  li h5 {
+    color: rgba(25, 25, 112, 0.6);
+  }
+  li p {
+    color: midnightblue;
+    span {
+      font-weight: bold;
+      font-size: 1.35em;
+    }
+  }
+}
+
+.input-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    to right bottom,
+    rgba(25, 25, 112, 0.7),
+    rgba(25, 25, 112, 0.3)
+  );
+  border-radius: 0rem 2rem 2rem 0rem;
+  justify-content: space-around;
+  color: white;
+}
+
+.right-column {
+  margin: 3rem;
+}
+
+.upper {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  i {
+    margin-left: 15rem;
+  }
+}
+
+.form-row {
+  display: inline-flex;
+}
+
+.btn {
+  background: midnightblue;
+  font-size: 0.75rem;
+  color: white;
+  float: right;
+  width: 43%;
+}
+
+.btn:hover {
+  color: midnightblue;
+  background-color: hsl(0, 0, 100%);
+  border: 1px solid midnightblue;
+}
+
+.credits {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  padding-right: 20px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
