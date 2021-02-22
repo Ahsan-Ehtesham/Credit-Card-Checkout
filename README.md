@@ -3,7 +3,7 @@ Credit Card Checkout Page using HTML, CSS
 
 Made with 💙 by Ahsan Ehtesham
 
-![Done](./done.JPG)
+![Done](./Done.JPG)
 
 [Github](https://github.com/Ahsan-Ehtesham/)
 
